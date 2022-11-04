@@ -1,0 +1,377 @@
+#container{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* trang chủ */
+.container-left{
+    flex: 68%;
+}
+.new-tick{
+    width: 100%;
+    padding-bottom: 24px;
+    margin-bottom: 12px;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--box-shadow);
+    border-radius: 5px;
+}
+.new-tick-img img{
+    margin-top: 8px;
+    width: 100%;
+    min-height: 260px;
+}
+.new-tick-wrap{
+    margin: 16px 24px;
+}
+.new-tick-wrap a{
+    text-decoration: none;
+    color: #000;
+}
+.new-tick-title{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.new-tick-title:hover{
+    color: #0098d1;
+    transition: all .25s linear;
+}
+.new-tick-time{
+    margin-top: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.container-right{
+    flex: 30%;
+    margin-left: 24px;
+}
+.container-name{
+    margin-left: 12px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+.news-last{
+    background-color: red;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--box-shadow);
+    border-radius: 5px;
+}
+.news-last-list{
+    padding-bottom: 24px;
+}
+.new-last-item{
+    padding: 12px 18px;
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.new-last-item a{
+    text-decoration: none;
+    color: #00739f;
+}
+.new-last-time{
+    margin-top: 3px;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin-right: 8px;
+}
+.new-last-content{
+    font-size: 0.96rem;
+    line-height: 22px;
+}
+.new-last-content:hover{
+    text-decoration: underline;
+}
+.news-list{
+    padding: 16px 24px;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--box-shadow);
+    border-radius: 5px;
+}
+.new-item{
+    display: flex;
+    margin-bottom: 24px;
+}
+.new-item-image{
+    width: 160px;
+    height: 100px;
+}
+.new-item-wrap{
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.new-item-wrap > a{
+    color: #000;
+    text-decoration: none;
+}
+.new-item-content{
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+.new-item-content:hover{
+    color: #0098d1;
+    transition: all .25s linear;
+}
+.new-item-time{
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.partner{
+    margin-top: 12px;
+    padding: 16px;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--box-shadow);
+    border-radius: 5px;
+}
+.partner-name{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.partner-list{
+    height: 60px;
+}
+.advertise{
+    margin-top: 12px;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--box-shadow);
+    border-radius: 5px;
+}
+.advertist-name{
+    font-size: 0.9rem;
+    padding: 16px;
+    font-weight: 600;
+}
+.advertises-container{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+.advertises-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all 1s;
+}
+.advertise-item{
+    min-width: 100%;
+    height: 100%;
+}
+.advertise-image{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Các trang con chủ đề */
+.container-left-wrap{
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--box-shadow);
+    border-radius: 5px;
+    padding-bottom: 32px;
+}
+.container-title{
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 18px 12px;
+    position: relative;
+    background-color: #f0f1f1;
+}
+.container-title::after{
+    top: 6px;
+    left: 0;
+    bottom: 6px;
+    width: 8px;
+    content: "";
+    position: absolute;
+    background-color: #0098d1;
+}
+.topic-tick{
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    background-color: #f0f1f1;
+}
+.topic-tick-item{
+    flex: 1;
+    margin: 0 6px;
+    padding-bottom: 24px;
+    min-height: 380px;
+    width: 100%;
+}
+.topic-tick-item img{
+    min-width: 100%;
+    width: 100%;
+    min-height: 230px;
+    height: 230px;
+}
+.topic-tick-item a{
+    text-decoration: none;
+    color: #00bbf3;
+}
+.topic-tick-item-title{
+    margin-top: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.topic-tick-item a:hover{
+    color: #0098d1;
+}
+.topic-tick-item-content{
+    margin-right: 12px;
+    margin-top: 12px;
+    font-size: 0.92rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+.toppic-list{
+    padding-top: 20px;
+    background-color: var(--white);
+}
+.toppic-item{
+    margin-top: 12px;
+    display: flex;
+}
+.toppic-item img{
+    margin-left: 1px;
+    min-width: 226px;
+    width: 226px;
+    min-height: 155px;
+    height: 155px;
+}
+.toppic-item-wrap{
+    margin: 0 12px;
+}
+.toppic-item-wrap a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.toppic-item-time{
+    margin-top: 4px;
+    font-size: 0.84rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.toppic-item-content{
+    margin-right: 32px;
+    margin-top: 16px;
+    font-size: 0.9rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+.topic-button{
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic-btn-item{
+    width: 48px;
+    height: 36px;
+    display: flex;
+    margin-right: 12px;
+}
+.topic-btn-item.active{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.topic-btn-item > a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.topic-btn-item > a:hover{
+    background-color: rgba(0, 0, 0, 0.07);
+}
+.topic-btn-item > a:active{
+    transform: scale(0.9);
+    transition: all .3s linear;
+}
+.topic-btn-item > a > i{
+    line-height: 36px;
+}
+
+
+
+/* Bài viết chi tiết */
+.post-container{
+    padding: 32px;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--box-shadow);
+    border-radius: 5px;
+}
+.post-title{
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+.post-wrap{
+    margin: 24px 0;
+    display: flex;
+}
+.post-topic a{
+    color: red;
+    text-decoration: none;
+    position: relative;
+    margin-right: 24px;
+}
+.post-topic a::after{
+    top: 0;
+    right: -12px;
+    bottom: 0;
+    width: 1.5px;
+    background-color: #000;
+    content: "";
+    position: absolute;
+}
+.post-author{
+    position: relative;
+    margin-right: 24px;
+}
+.post-author::after{
+    top: 0;
+    right: -12px;
+    bottom: 0;
+    width: 1.5px;
+    background-color: #000;
+    content: "";
+    position: absolute;
+}
+.post-time{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.96rem;
+}
+.post-img{
+    width: 100%;
+    text-align: center;
+}
+.post-img img{
+    min-width: 100%;
+    width: 100%;
+    min-height: 400px;
+    /* height: 400px; */
+}
+.post-img-name{
+    margin-top: 6px;
+    font-size: 0.96rem;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 0 64px;
+}
+.post-content{
+    margin-top: 24px;
+    font-size: 1.1rem;
+    line-height: 2.0rem;
+}

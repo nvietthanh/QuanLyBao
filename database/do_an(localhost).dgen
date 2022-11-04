@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), Data-Generator document file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<DataGenDocument Version="6.1">
+  <ConnectionModel>
+    <PropertyValue Name="Database">59f90733-4d68-4fdf-82a7-f0fcbf5460aa</PropertyValue>
+    <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=root;Host=localhost;Character Set=utf8</PropertyValue>
+    <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
+  </ConnectionModel>
+  <Settings>
+    <Provider>59f90733-4d68-4fdf-82a7-f0fcbf5460aa</Provider>
+    <AllowNulls>true</AllowNulls>
+    <IncludeNullsPercent>10</IncludeNullsPercent>
+    <AllowEmptyString>false</AllowEmptyString>
+    <IncludeEmptyStringPercent>10</IncludeEmptyStringPercent>
+    <DatabaseName>do_an</DatabaseName>
+    <PopulationType>RowsCount</PopulationType>
+    <RowsToGenerate>1000</RowsToGenerate>
+    <ProportionOfExistingData>10</ProportionOfExistingData>
+    <TimeTicksToPopulate>100000000</TimeTicksToPopulate>
+    <GenerateUniqueValues>false</GenerateUniqueValues>
+    <TruncateTables>true</TruncateTables>
+    <DistributionMode>Seed</DistributionMode>
+    <Seed>1</Seed>
+    <LastSeedValue>0</LastSeedValue>
+    <Language>US</Language>
+    <ShowDataPreview>true</ShowDataPreview>
+  </Settings>
+  <Tables>
+    <Table Name="phan_loai">
+      <Checked>true</Checked>
+      <Settings>
+        <Truncate>true</Truncate>
+        <RowsToGenerate>0</RowsToGenerate>
+        <PopulationDetails>
+          <PopulationType>RowsCount</PopulationType>
+          <RowsCount>100</RowsCount>
+          <LookupProportion>30</LookupProportion>
+          <ProportionOfExistingData>10</ProportionOfExistingData>
+          <TimeTicksToPopulate>100000000</TimeTicksToPopulate>
+        </PopulationDetails>
+      </Settings>
+      <Columns>
+        <Column Name="ID_phan_loai">
+          <Checked>true</Checked>
+          <DataType>CHAR</DataType>
+          <GeneratorOptions p6:type="UniqueidentifierGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <Unique>true</Unique>
+            <IsAlwaysUnique>true</IsAlwaysUnique>
+            <UseDefault>false</UseDefault>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>4</SeedValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringUniqueidentifierGenerator</GeneratorType>
+          <GeneratorName>ID (globally unique identifier)</GeneratorName>
+          <GeneratorDescription>25f64401-1ec2-39c6-87b2-ca571da4a630, 6ab83b1e-2094-2176-16d1-b5f6e90d259e, ...</GeneratorDescription>
+          <GeneratorCategory>Business</GeneratorCategory>
+          <Length>36</Length>
+        </Column>
+        <Column Name="Chinh_tri_xa_hoi">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q1="http://www.w3.org/2001/XMLSchema" p6:type="q1:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>4</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="Doi_song">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q2="http://www.w3.org/2001/XMLSchema" p6:type="q2:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>5</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="Khoa_hoc">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q3="http://www.w3.org/2001/XMLSchema" p6:type="q3:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>6</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="Kinh_doanh">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q4="http://www.w3.org/2001/XMLSchema" p6:type="q4:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>7</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="Phap_luat">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q5="http://www.w3.org/2001/XMLSchema" p6:type="q5:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>8</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="Suc_khoe">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q6="http://www.w3.org/2001/XMLSchema" p6:type="q6:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>9</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="The_gioi">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q7="http://www.w3.org/2001/XMLSchema" p6:type="q7:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>10</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="The_thao">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q8="http://www.w3.org/2001/XMLSchema" p6:type="q8:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>11</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="Van_hoa">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q9="http://www.w3.org/2001/XMLSchema" p6:type="q9:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>12</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+        <Column Name="Vi_tinh">
+          <Checked>true</Checked>
+          <DataType>FLOAT</DataType>
+          <GeneratorOptions p6:type="MySqlFloatGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q10="http://www.w3.org/2001/XMLSchema" p6:type="q10:float">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>13</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <UseDefault>false</UseDefault>
+            <DefaultValue>0</DefaultValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlFloatGenerator</GeneratorType>
+          <GeneratorName>float</GeneratorName>
+          <GeneratorDescription>fill with floating point numeric values</GeneratorDescription>
+        </Column>
+      </Columns>
+    </Table>
+    <Table Name="tac_gia">
+      <Checked>true</Checked>
+      <Settings>
+        <Truncate>true</Truncate>
+        <RowsToGenerate>0</RowsToGenerate>
+        <PopulationDetails>
+          <PopulationType>RowsCount</PopulationType>
+          <RowsCount>3</RowsCount>
+          <LookupProportion>30</LookupProportion>
+          <ProportionOfExistingData>10</ProportionOfExistingData>
+          <TimeTicksToPopulate>100000000</TimeTicksToPopulate>
+        </PopulationDetails>
+      </Settings>
+      <Columns>
+        <Column Name="ID_tac_gia">
+          <Checked>true</Checked>
+          <DataType>CHAR</DataType>
+          <GeneratorOptions p6:type="UniqueidentifierGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <Unique>true</Unique>
+            <IsAlwaysUnique>true</IsAlwaysUnique>
+            <UseDefault>false</UseDefault>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>14</SeedValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringUniqueidentifierGenerator</GeneratorType>
+          <GeneratorName>ID (globally unique identifier)</GeneratorName>
+          <GeneratorDescription>25f64401-1ec2-39c6-87b2-ca571da4a630, 6ab83b1e-2094-2176-16d1-b5f6e90d259e, ...</GeneratorDescription>
+          <GeneratorCategory>Business</GeneratorCategory>
+          <Length>36</Length>
+        </Column>
+        <Column Name="Ma_tac_gia">
+          <Checked>true</Checked>
+          <DataType>CHAR</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>14</SeedValue>
+            <Unique>true</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>TGD(${counter([0-9]{3})})</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>ID (composite sequential)</GeneratorName>
+          <GeneratorDescription>ID000, ID001, ID002, ..., ID997, ID998, ID999</GeneratorDescription>
+          <GeneratorCategory>Business</GeneratorCategory>
+          <Length>100</Length>
+        </Column>
+        <Column Name="Ten_tac_gia">
+          <Checked>true</Checked>
+          <DataType>VARCHAR</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>15</SeedValue>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>Lê Hoàng Trung</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>Reg Exp</GeneratorName>
+          <GeneratorDescription>values based on a regular expression</GeneratorDescription>
+          <Length>255</Length>
+        </Column>
+        <Column Name="Gioi_tinh">
+          <Checked>true</Checked>
+          <DataType>SMALLINT</DataType>
+          <GeneratorOptions p6:type="SmallIntegerGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Increment xmlns:q11="http://www.w3.org/2001/XMLSchema" p6:type="q11:short">1</Increment>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>14</SeedValue>
+            <MinValue>0</MinValue>
+            <MaxValue>2</MaxValue>
+            <UseDefault>false</UseDefault>
+          </GeneratorOptions>
+          <GeneratorType>MySqlSmallIntegerGenerator</GeneratorType>
+          <GeneratorName>smallint</GeneratorName>
+          <GeneratorDescription>fill with 16-bit signed integer values</GeneratorDescription>
+        </Column>
+        <Column Name="SDT">
+          <Checked>true</Checked>
+          <DataType>VARCHAR</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>16</SeedValue>
+            <Unique>true</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>(036|096|038)[0-9]{7}</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>Reg Exp</GeneratorName>
+          <GeneratorDescription>values based on a regular expression</GeneratorDescription>
+          <Length>255</Length>
+        </Column>
+        <Column Name="Nam_sinh">
+          <Checked>true</Checked>
+          <DataType>DATE</DataType>
+          <GeneratorOptions p6:type="DateGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <UseDefault>false</UseDefault>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>14</SeedValue>
+            <SequentialValueTicks>864000000000</SequentialValueTicks>
+            <OffsetFromColumnMaxTimeTicks>10000000</OffsetFromColumnMaxTimeTicks>
+            <OffsetFromColumnMinTimeTicks>10000000</OffsetFromColumnMinTimeTicks>
+            <DateTimeRange>MinMaxDate</DateTimeRange>
+            <UseOffsetDetails>false</UseOffsetDetails>
+            <OffsetFromColumnMinDays>0</OffsetFromColumnMinDays>
+            <OffsetFromColumnMaxDays>7</OffsetFromColumnMaxDays>
+            <MinDate>1970-01-01T00:00:00</MinDate>
+            <MaxDate>2022-10-15T00:00:00+07:00</MaxDate>
+            <IsRandomizeDate>true</IsRandomizeDate>
+          </GeneratorOptions>
+          <GeneratorType>MySqlDateGenerator</GeneratorType>
+          <GeneratorName>date</GeneratorName>
+          <GeneratorDescription>fill with date values</GeneratorDescription>
+        </Column>
+        <Column Name="Dia_chi">
+          <Checked>true</Checked>
+          <DataType>VARCHAR</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>17</SeedValue>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>[0-9A-Z]+</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>Reg Exp</GeneratorName>
+          <GeneratorDescription>values based on a regular expression</GeneratorDescription>
+          <Length>255</Length>
+        </Column>
+      </Columns>
+    </Table>
+    <Table Name="tai_khoan_dang">
+      <Checked>true</Checked>
+      <Settings>
+        <Truncate>true</Truncate>
+        <RowsToGenerate>0</RowsToGenerate>
+        <PopulationDetails>
+          <PopulationType>RowsCount</PopulationType>
+          <RowsCount>3</RowsCount>
+          <LookupProportion>30</LookupProportion>
+          <ProportionOfExistingData>10</ProportionOfExistingData>
+          <TimeTicksToPopulate>100000000</TimeTicksToPopulate>
+        </PopulationDetails>
+      </Settings>
+      <Columns>
+        <Column Name="ID_tai_khoan_dang">
+          <Checked>true</Checked>
+          <DataType>CHAR</DataType>
+          <GeneratorOptions p6:type="UniqueidentifierGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <Unique>true</Unique>
+            <IsAlwaysUnique>true</IsAlwaysUnique>
+            <UseDefault>false</UseDefault>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>18</SeedValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringUniqueidentifierGenerator</GeneratorType>
+          <GeneratorName>ID (globally unique identifier)</GeneratorName>
+          <GeneratorDescription>25f64401-1ec2-39c6-87b2-ca571da4a630, 6ab83b1e-2094-2176-16d1-b5f6e90d259e, ...</GeneratorDescription>
+          <GeneratorCategory>Business</GeneratorCategory>
+          <Length>36</Length>
+        </Column>
+        <Column Name="Email">
+          <Checked>true</Checked>
+          <DataType>VARCHAR</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>18</SeedValue>
+            <Unique>true</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>(((((($"FirstNamesMale.txt")|($"FirstNamesFemale.txt"))[_.]?)?($"LastNames.txt"))|(($"LastNames.txt")\C?)|(((($"FirstNamesMale.txt")|($"FirstNamesFemale.txt"))[_.]?(\C[_.]?)?)?($"LastNames.txt")))(\D{,3})?|\c{4,8}(\d{1,4}|[_.]\c{4,10}))@(example$"7"|nowhere$"3").com</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>Email</GeneratorName>
+          <GeneratorDescription>Danica.Foley@example.com, fstu@nowhere.com, CurtK_Burton@example.com, LaroseM696@nowhere.com, ...</GeneratorDescription>
+          <GeneratorCategory>Personal</GeneratorCategory>
+          <Length>50</Length>
+        </Column>
+        <Column Name="Mat_khau">
+          <Checked>true</Checked>
+          <DataType>VARCHAR</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>18</SeedValue>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>123456</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>Reg Exp</GeneratorName>
+          <GeneratorDescription>values based on a regular expression</GeneratorDescription>
+          <Length>255</Length>
+        </Column>
+        <Column Name="Ten_hien_thi">
+          <Checked>true</Checked>
+          <DataType>VARCHAR</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>19</SeedValue>
+            <Unique>true</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>Admin01|Admin02|Admin03|Admin04</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>Reg Exp</GeneratorName>
+          <GeneratorDescription>values based on a regular expression</GeneratorDescription>
+          <Length>255</Length>
+        </Column>
+        <Column Name="ID_tac_gia">
+          <Checked>true</Checked>
+          <DataType>CHAR</DataType>
+          <GeneratorOptions p6:type="ForeignKeyGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <Unique>true</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>18</SeedValue>
+            <RepeatValues>false</RepeatValues>
+            <FromTimes>1</FromTimes>
+            <ToTimes>10</ToTimes>
+            <ExcludeValues>false</ExcludeValues>
+            <ExclusionValuesPercent>1</ExclusionValuesPercent>
+          </GeneratorOptions>
+          <GeneratorType>ForeignKeyGenerator</GeneratorType>
+          <GeneratorName>Foreign Key (auto assigned)</GeneratorName>
+          <GeneratorDescription>references a column from parent table</GeneratorDescription>
+          <HasForeignKey>true</HasForeignKey>
+          <Length>36</Length>
+        </Column>
+      </Columns>
+    </Table>
+    <Table Name="bai_viet">
+      <Checked>true</Checked>
+      <Settings>
+        <Truncate>true</Truncate>
+        <RowsToGenerate>0</RowsToGenerate>
+        <PopulationDetails>
+          <PopulationType>RowsCount</PopulationType>
+          <RowsCount>100</RowsCount>
+          <LookupProportion>30</LookupProportion>
+          <ProportionOfExistingData>10</ProportionOfExistingData>
+          <TimeTicksToPopulate>100000000</TimeTicksToPopulate>
+        </PopulationDetails>
+      </Settings>
+      <Columns>
+        <Column Name="ID_bai_viet">
+          <Checked>true</Checked>
+          <DataType>CHAR</DataType>
+          <GeneratorOptions p6:type="UniqueidentifierGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <Unique>true</Unique>
+            <IsAlwaysUnique>true</IsAlwaysUnique>
+            <UseDefault>false</UseDefault>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>1</SeedValue>
+          </GeneratorOptions>
+          <GeneratorType>MySqlStringUniqueidentifierGenerator</GeneratorType>
+          <GeneratorName>ID (globally unique identifier)</GeneratorName>
+          <GeneratorDescription>25f64401-1ec2-39c6-87b2-ca571da4a630, 6ab83b1e-2094-2176-16d1-b5f6e90d259e, ...</GeneratorDescription>
+          <GeneratorCategory>Business</GeneratorCategory>
+          <Length>36</Length>
+        </Column>
+        <Column Name="ID_phan_loai">
+          <Checked>true</Checked>
+          <DataType>CHAR</DataType>
+          <GeneratorOptions p6:type="ForeignKeyGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <Unique>true</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>10</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>1</SeedValue>
+            <RepeatValues>false</RepeatValues>
+            <FromTimes>1</FromTimes>
+            <ToTimes>10</ToTimes>
+            <ExcludeValues>false</ExcludeValues>
+            <ExclusionValuesPercent>1</ExclusionValuesPercent>
+          </GeneratorOptions>
+          <GeneratorType>ForeignKeyGenerator</GeneratorType>
+          <GeneratorName>Foreign Key (auto assigned)</GeneratorName>
+          <GeneratorDescription>references a column from parent table</GeneratorDescription>
+          <HasForeignKey>true</HasForeignKey>
+          <Length>36</Length>
+        </Column>
+        <Column Name="ID_tai_khoan_dang">
+          <Checked>true</Checked>
+          <DataType>CHAR</DataType>
+          <GeneratorOptions p6:type="ForeignKeyGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>10</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>2</SeedValue>
+            <RepeatValues>false</RepeatValues>
+            <FromTimes>1</FromTimes>
+            <ToTimes>10</ToTimes>
+            <ExcludeValues>false</ExcludeValues>
+            <ExclusionValuesPercent>1</ExclusionValuesPercent>
+          </GeneratorOptions>
+          <GeneratorType>ForeignKeyGenerator</GeneratorType>
+          <GeneratorName>Foreign Key (auto assigned)</GeneratorName>
+          <GeneratorDescription>references a column from parent table</GeneratorDescription>
+          <HasForeignKey>true</HasForeignKey>
+          <Length>36</Length>
+        </Column>
+        <Column Name="Tieu_de">
+          <Checked>true</Checked>
+          <DataType>TEXT</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>1</SeedValue>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>Tiêu đề (${counter([0-9]{3})})</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>ID (composite sequential)</GeneratorName>
+          <GeneratorDescription>ID000, ID001, ID002, ..., ID997, ID998, ID999</GeneratorDescription>
+          <GeneratorCategory>Business</GeneratorCategory>
+        </Column>
+        <Column Name="Noi_dung">
+          <Checked>true</Checked>
+          <DataType>TEXT</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>2</SeedValue>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>Nội dung (${counter([0-9]{3})})</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>ID (composite sequential)</GeneratorName>
+          <GeneratorDescription>ID000, ID001, ID002, ..., ID997, ID998, ID999</GeneratorDescription>
+          <GeneratorCategory>Business</GeneratorCategory>
+        </Column>
+        <Column Name="Anh">
+          <Checked>true</Checked>
+          <DataType>TEXT</DataType>
+          <GeneratorOptions p6:type="MySqlRegularExpressionGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowEmptyStrings>false</AllowEmptyStrings>
+            <EmptyStringProportion>10</EmptyStringProportion>
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>10</NullProportion>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>3</SeedValue>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <Expression>Ảnh D(${counter([0-9]{3})})</Expression>
+          </GeneratorOptions>
+          <GeneratorType>MySqlRegularExpressionGenerator</GeneratorType>
+          <GeneratorName>ID (composite sequential)</GeneratorName>
+          <GeneratorDescription>ID000, ID001, ID002, ..., ID997, ID998, ID999</GeneratorDescription>
+          <GeneratorCategory>Business</GeneratorCategory>
+        </Column>
+        <Column Name="Ngay_dang">
+          <Checked>true</Checked>
+          <DataType>DATETIME</DataType>
+          <GeneratorOptions p6:type="MySqlDateTimeGeneratorOptions" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowNulls>false</AllowNulls>
+            <NullProportion>0</NullProportion>
+            <Unique>false</Unique>
+            <IsAlwaysUnique>false</IsAlwaysUnique>
+            <UseDefault>false</UseDefault>
+            <ValueDistributionMode>Seed</ValueDistributionMode>
+            <SeedValue>1</SeedValue>
+            <SequentialValueTicks>864000000000</SequentialValueTicks>
+            <OffsetFromColumnMaxTimeTicks>10000000</OffsetFromColumnMaxTimeTicks>
+            <OffsetFromColumnMinTimeTicks>10000000</OffsetFromColumnMinTimeTicks>
+            <DateTimeRange>MinMaxDate</DateTimeRange>
+            <UseOffsetDetails>false</UseOffsetDetails>
+            <OffsetFromColumnMinDays>0</OffsetFromColumnMinDays>
+            <OffsetFromColumnMaxDays>7</OffsetFromColumnMaxDays>
+            <MinDate>1970-01-01T00:00:00</MinDate>
+            <MaxDate>2022-10-15T00:00:00+07:00</MaxDate>
+            <IsRandomizeDate>true</IsRandomizeDate>
+            <MinFraction>0</MinFraction>
+            <MaxFraction>0</MaxFraction>
+            <MaxAllowedFraction>0</MaxAllowedFraction>
+            <IsRandomizeFraction>true</IsRandomizeFraction>
+            <Scale>0</Scale>
+            <Precision>0</Precision>
+            <IsRandomizeTime>true</IsRandomizeTime>
+            <MaxTime>863990000000</MaxTime>
+            <MinTime>10000000</MinTime>
+          </GeneratorOptions>
+          <GeneratorType>MySqlDateTimeGenerator</GeneratorType>
+          <GeneratorName>datetime</GeneratorName>
+          <GeneratorDescription>fill with date and time with fractional seconds values</GeneratorDescription>
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <SynchronizationOptions p2:type="DataSyncOptionGroup" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <SynchronizationFileName>C:\Users\Le Trung\Desktop\Đồ án chuyên ngành\server\database\DataGeneration_202210152258.sql</SynchronizationFileName>
+    <ExecuteCustomScriptTypeBefore>UseEmbeddedScript</ExecuteCustomScriptTypeBefore>
+    <ExecuteCustomScriptTypeAfter>UseEmbeddedScript</ExecuteCustomScriptTypeAfter>
+    <BulkInsert>false</BulkInsert>
+  </SynchronizationOptions>
+</DataGenDocument>

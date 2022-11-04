@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light: #f3f3f3;
+    --white: #ffff;
+    --box-shadow: rgb(189, 184, 184);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light);
+}
+#app{
+    margin: 0 auto;
+}
+#modal{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 101;
+}
+#msg{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 102;
+}
+.modal-open{
+    overflow-y: hidden;
+}
+.modal-open #modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg-open #msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-open{
+    display: block !important;
+}
+.msg-open{
+    display: block !important;
+}
+
+button{
+    width: 130px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #4999d2;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+button:active{
+    transform: scale(0.96);
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.space-column{
+    height: 8px;
+}
